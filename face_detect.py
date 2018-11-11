@@ -96,7 +96,7 @@ while True:
                 #---
     
                 
-                cv2.imshow('right',l_eye_roi_gray)
+                cv2.imshow('right',l_eye_roi_color)
                 cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),1)
             
                 
